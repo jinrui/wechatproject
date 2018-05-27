@@ -1,0 +1,18 @@
+<!--index.wxml-->
+  <view class="container">
+  <view  bindtap="bindViewTap" class="city">
+    <text>{{city}}</text>
+  </view>
+  <view class="type">
+    <text>{{weatherType}}</text>
+  </view>
+  <view class="wendu">
+    <text>{{wenDu}}</text><text>°</text>
+  </view>
+  <view class="wetherimg">
+  <image style=" background-color: #eeeeee;" class="image_frame" src="{{imageUrl}}" mode="widthFix">  
+</image> 
+</view> 
+</view>
+
+
